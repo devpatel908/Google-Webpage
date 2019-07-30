@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+  
+header {
+    width: 100%;
+}
+  
+ul {
+    list-style: none;
+}
+
+/* Nav Bar */
+
+#nav-bar-left {
+    float: left;
+}
+  
+  #nav-bar-right {
+    float: right;
+}
+  
+.nav-bar li {
+    display: inline-block;
+    padding: 8px;
+}
+  
+#sign-in {
+    color: #fff;
+}
+  
+.nav-bar #sign-in {
+    background: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+  
+.nav-links {
+    color: #404040;
+}
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+li.nav-links a:hover {
+    text-decoration: underline;
+}
+  
+#sign-in:hover {
+    box-shadow: 1px 1px 5px #999;
+}
+
+/* Google Search Area */
+
+.google #google-logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
+
+.form {
+    text-align: center;
+}
+
+#form-search {
+    width: 450px;
+    line-height: 32px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f5f5ff;
+}
+
+.form #form-search {
+    padding: 0 8px;
+}
+
+#form-search:hover {
+    background-color: #f0f0fe;
+    padding-top: 0;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 300px;
+}
+
+.buttons input {
+    border: 1px;
+    background-color: #f5f5ff;
+    padding: 12px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    color: #555;
+}
+
+.buttons input:hover {
+    color: #000;
+    box-shadow: 1px 1px 3px #999;
+}
+
+/* Footer */
+
+footer {
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+  
+footer ul li {
+    display: inline;
+    color: #777;
+    font-size: 14px;
+    padding: 8px;
+}
+  
+footer ul.footer-left {
+    float: left;
+    padding: 1px 20px;
+}
+  
+footer ul.footer-right {
+    float: right;
+    padding: 1px 20px;
+}
+  
+footer ul a:hover {
+    text-decoration: underline;
+}
